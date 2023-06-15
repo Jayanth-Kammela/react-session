@@ -1,0 +1,5 @@
+const MongoDBStore = require('connect-mongodb-session')(session) // add this package to store the user session id automatically on mongodb
+const mongoDBstore = new MongoDBStore({
+  uri: '',
+  collection: 'mySessions',
+})
