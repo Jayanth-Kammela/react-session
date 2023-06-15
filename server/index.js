@@ -8,7 +8,7 @@ const loginRouter = require('./routes/loginRoutes')
 const app = express()
 
 
-mongoose.connect('mongodb+srv://jayanth08:UCGojIdaVIZUlK4g@cluster0.vpir7jy.mongodb.net/Auth?retryWrites=true&w=majority')
+mongoose.connect('')
 
 app.use(
   session({
